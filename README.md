@@ -93,7 +93,7 @@ Al ejecutar `ip a` e `ip r` dentro de la máquina observamos:
 ```ruby
 Vagrant.configure("2") do |config|
   config.vm.box = "debian/bookworm64"
-  config.vm.hostname = "debian-tunombre"
+  config.vm.hostname = "debian-PabloAlcon"
 
   config.vm.network "private_network", ip: "192.168.56.10", virtualbox__intnet: true
 
