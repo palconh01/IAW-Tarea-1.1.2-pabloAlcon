@@ -58,7 +58,7 @@
 +-----------------------------------------------------------------------+
 | ANFITRION (Mi equipo)                                                 |
 |                                                                       |
-	|  Navegador Web (127.0.0.1:8080)            Terminal (vagrant ssh)   |
+|  Navegador Web (127.0.0.1:8080)            Terminal (vagrant ssh)     |
 |               |                                     |                 |
 +---------------|-------------------------------------|-----------------+
                 | Reenvio de puerto (8080 -> 80)      | Reenvio SSH (2222 -> 22)
@@ -67,9 +67,9 @@
                             [ Red NAT ]
                                    |
 +----------------------------------|------------------------------------+
-| MAQUINA VIRTUAL (Debian 12 - Hostname: debian-PabloAlcon)              |
+|      MAQUINA VIRTUAL (Debian 12 - Hostname: debian-PabloAlcon)        |
 |                                  |                                    |
-|  Interfaz 1 (NAT - eth0/enp0s3)  |         Interfaz 2 (  eth1)        |
+|  Interfaz 1 (NAT - eth0/enp0s3)  |         Interfaz 2 ( eth1) 	    |
 |  IP: 10.0.2.15/24                |         IP fija: 192.168.56.10/24  |
 |  Gateway: 10.0.2.2               |               (Red interna )       |
 |               |                                                       |
