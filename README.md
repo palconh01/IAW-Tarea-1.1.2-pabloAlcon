@@ -161,9 +161,9 @@ En esta captura se observa tras entrar con `vagrant ssh` que el nombre de la má
 
 Comprobacion de red y hostname
 
-![image.png](img\image.png)
+![image.png](img/image.png)
 
-![image.png](img\image1.png)
+![image.png](img/image1.png)
 
 ### 2. Servicio Apache en ejecución dentro de Debian
 
@@ -171,7 +171,7 @@ Con el comando `systemctl status apache2` comprobamos que el script de aprovisio
 
 Estado de Apache en Debian
 
-![image.png](img\image2.png)
+![image.png](img/image2.png)
 
 ### 3. Comprobación de la carpeta compartida `/vagrant`
 
@@ -179,7 +179,7 @@ Al listar el directorio `/vagrant` dentro de la máquina virtual vemos los mismo
 
 Carpeta compartida vagrant
 
-![image.png](img\image3.png)
+![image.png](img/image3.png)
 
 ### 4. Acceso a la página web desde el anfitrión
 
@@ -187,9 +187,9 @@ Accediendo desde el navegador del anfitrión a la dirección `http://127.0.0.1:8
 
 Acceso web desde anfitrion
 
-![image.png](img\image4.png)
+![image.png](img/image4.png)
 
-![image.png](img\image5.png)
+![image.png](img/image5.png)
 
 ---
 
